@@ -25,8 +25,8 @@ import mongoose from "mongoose"
 const connectDB = async () => {
   try {
     const connectionIstant= await mongoose.connect('mongodb+srv://Anshika:Anshika123@anshika.79ftq.mongodb.net/myDatabase?retryWrites=true&w=majority', {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
+      //useNewUrlParser: true,
+      //useUnifiedTopology: true,
     });
     console.log(`\n Mongoose Connection  successfully!! DB HOST ${connectionIstant.connection.host}`);
   } catch (err) {

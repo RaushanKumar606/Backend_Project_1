@@ -26,4 +26,4 @@ import cookieParser from "cookie-parser"
 
   app.use("/register",router)
   
-export {app}
+export {app};
