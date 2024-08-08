@@ -28,7 +28,7 @@ const connectDB = async () => {
       //useNewUrlParser: true,
       //useUnifiedTopology: true,
     });
-    console.log(`\n Mongoose Connection  successfully!! DB HOST ${connectionIstant.connection.host}`);
+    console.log(`\n Mongoose Connection is  successfully!! DB HOST ${connectionIstant.connection.host}`);
   } catch (err) {
     console.error('MongoDB connection error:', err);
     process.exit(1);
