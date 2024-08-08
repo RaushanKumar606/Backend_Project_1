@@ -8,7 +8,7 @@ import ApiError from "../utils/ApiError.js";
  
 const registerUser =  asyncHandler(async(req,res)=>{
     res.status(200).json({
-        message:"chai and code "
+        message:"Hello User  "
     })
 
     const {fullName,userName,password,email} = req.body;
